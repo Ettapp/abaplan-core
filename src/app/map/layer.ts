@@ -23,7 +23,7 @@ export interface Osm {
 }
 
 urlUtils.addProxyRule({
-  proxyUrl: "https://audiotactile.ovh/proxy/proxy.php",
+  proxyUrl: "https://proxy.audiotactile.ch",
   urlPrefix: "https://hepiageo.hesge.ch",
 });
 

@@ -12,7 +12,7 @@ const LAYER_TYPE_ID: { [id: number]: LayerType } = {
 
 @Injectable()
 export class MapService {
-  private mapsUrl = "https://audiotactile.ovh/proxy/index.php/";
+  private mapsUrl = "https://backend.audiotactile.ovh";
   private divId: Node | string = "map-div";
 
   constructor(private http: Http) {}
